@@ -7,7 +7,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('/India/taj_mahal.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('/taj_mahal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -89,4 +89,17 @@ section .learnmore{
 section .signup{
     background: #00b849;
     color: white;
+}
+.change_content::after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+@keyframes changetext {
+    0%{content:"Darjeeling";}
+    20%{content:"Agra";}
+    35%{content:"Jaipur";}
+    60%{content:"kerala";}
+    80%{content:"delhi";}
+    100%{content:"Mumbai";}
 }
