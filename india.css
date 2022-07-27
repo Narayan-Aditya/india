@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('/India/taj_mahal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(57, 180, 57);
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
